@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    height: 800px;
+    background-color: azure;
+    display: flex;
+    flex-direction: row;
+}
+
+.item1{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+.item2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(218, 74, 81);
+}
+.item3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 255, 64);
+}

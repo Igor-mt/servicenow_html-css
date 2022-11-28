@@ -1,0 +1,44 @@
+.menu {
+    position: top;
+    bottom: 0;
+    width: 100%;
+}
+
+.header-menu {
+	height: auto;
+	/* display: inline-block; */
+    text-align: right;
+	color: #fff;
+	font-size: 14px;
+	line-height: 60px;
+	padding: 0 10px;
+}
+
+/* .header-menu ul li {
+	height: auto;
+	display: inline-block;
+	background: red;
+}
+
+.header-menu ul li a {
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	line-height: 60px;
+	padding: 0 10px;
+} */
+
+img {
+    float: left;
+    width: 30%;
+    border: 20px;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+}
+
+.link-1 {
+    width: 30%;
+    border: 20px;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+}
