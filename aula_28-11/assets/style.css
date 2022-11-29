@@ -1,23 +1,45 @@
+body{
+    background: azure;
+}
+
 .container {
+    width: 400px;
+    height: 600px;
+    background-color: rgb(182, 245, 245);
     display: flex;
-    height: 800px;
-    background-color: azure;
-    display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    /* align-content: stretch; */
+    align-items: flex-start;
 }
 
 .item1{
-    width: 200px;
+    width: 150px;
     height: 200px;
     background-color: aqua;
+    order: 2;
 }
 .item2{
-    width: 200px;
+    width: 150px;
     height: 200px;
     background-color: rgb(218, 74, 81);
+    order: 3;
 }
 .item3{
     width: 200px;
     height: 200px;
     background-color: rgb(0, 255, 64);
+    order: 4;
+}
+.item4{
+    width: 400px;
+    height: 100px;
+    background-color: rgb(85, 67, 153);
+    order: 5;
+}
+.item5{
+    width: 400px;
+    height: 100px;
+    background-color: rgb(153, 167, 78);
+    order: 1;
 }
