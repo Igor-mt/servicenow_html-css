@@ -1,0 +1,91 @@
+body html {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+}
+
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: rgb(198, 216, 223);
+    overflow: hidden;
+}
+
+.content {
+    float: left;
+    width: 100%;
+    margin-right: -210px;
+}
+
+.content-inner {
+    margin-right: 210px;
+    /* grid-template-columns: repeat(2, 1fr); */
+}
+
+.sidebar{
+    background: red;
+    float: right;
+    width: 200px;
+}
+
+.menu{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: end;
+}
+.logo {
+    text-align: start;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    margin: 0;
+    padding: 0;
+}
+.footer {
+    width: 100%;
+    background: yellow;
+    text-align: center;
+}
+
+img {
+    width: 25%;
+}
+
+@media screen and (max-width:700px){
+    .sidebar, .content, .content-inner {
+        float: none;
+        width: 100%;
+        margin-right: 0;
+    }
+}
+@media screen and (min-width:1200px){
+    .sidebar{
+        float: left;
+        width: 90%;
+        margin-right: 0;
+    }
+    .content {
+        float: right;
+        width: 90%;
+        margin-right: 0;
+    }
+    .content-inner {
+        float: right;
+        width: 90%;
+        margin-right: 0;
+    }
+}
